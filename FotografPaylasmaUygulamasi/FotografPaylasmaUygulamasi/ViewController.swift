@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             }
             
         } else {
-            hataMesaji(titleInput: "Hata!", messageInput: "Kullanıcı Adı ve Şifre Giriniz!")
+            hataMesaji(titleInput: "Hata! ", messageInput: "Kullanıcı Adı ve Şifre Giriniz!")
         }
         
     }
