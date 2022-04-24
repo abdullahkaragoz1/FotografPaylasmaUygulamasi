@@ -71,7 +71,13 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                                 firestoreDatabase.collection("post").addDocument(data: firestorePost) {
                                     (error) in
                                     if error != nil {
-                                        self.hataMesajiGoster(title: "Hata", message: error?.localizedDescription ?? "Hata Aldınız")
+                                        self.hataMesajiGoster(title: "Hata", message: error?.localizedDescription ?? "Hata Aldınız Tekrar Deneyiniz")
+                                    }
+                                    else {
+                                      //  self.imageView.image = UIImage(named: "square.and.arrow.up")
+                                        self.yorumTextField.text = ""
+                                        self.tabBarController?.selectedIndex = 0
+                                    
                                     }
                                 }
                                 

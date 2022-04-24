@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1990B528158B9800608BA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC1990B428158B9800608BA8 /* GoogleService-Info.plist */; };
+		CC1990B7281598C600608BA8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1990B6281598C600608BA8 /* Post.swift */; };
+		CC51584F2814C5A200A4E9A0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51584E2814C5A200A4E9A0 /* FeedCell.swift */; };
 		CC8A09BE28075889001F283D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A09BD28075889001F283D /* FeedViewController.swift */; };
 		CC8A09C0280758B6001F283D /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A09BF280758B6001F283D /* UploadViewController.swift */; };
 		CC8A09C2280758CB001F283D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A09C1280758CB001F283D /* SettingsViewController.swift */; };
@@ -16,7 +19,6 @@
 		CCE3740527FFAD4E00EFDDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3740327FFAD4E00EFDDF1 /* Main.storyboard */; };
 		CCE3740727FFAD4F00EFDDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE3740627FFAD4F00EFDDF1 /* Assets.xcassets */; };
 		CCE3740A27FFAD4F00EFDDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE3740827FFAD4F00EFDDF1 /* LaunchScreen.storyboard */; };
-		CCE3741227FFAFAD00EFDDF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCE3741127FFAFAD00EFDDF1 /* GoogleService-Info.plist */; };
 		CCE3741527FFB14900EFDDF1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CCE3741427FFB14900EFDDF1 /* FirebaseAnalytics */; };
 		CCE3741727FFB14900EFDDF1 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = CCE3741627FFB14900EFDDF1 /* FirebaseAnalyticsSwift-Beta */; };
 		CCE3741927FFB14900EFDDF1 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CCE3741827FFB14900EFDDF1 /* FirebaseAnalyticsWithoutAdIdSupport */; };
@@ -48,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1990B428158B9800608BA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC1990B6281598C600608BA8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CC51584E2814C5A200A4E9A0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CC8A09BD28075889001F283D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CC8A09BF280758B6001F283D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		CC8A09C1280758CB001F283D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +64,6 @@
 		CCE3740627FFAD4F00EFDDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE3740927FFAD4F00EFDDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE3740B27FFAD4F00EFDDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCE3741127FFAFAD00EFDDF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +127,16 @@
 				CCE373FD27FFAD4E00EFDDF1 /* AppDelegate.swift */,
 				CCE373FF27FFAD4E00EFDDF1 /* SceneDelegate.swift */,
 				CCE3740127FFAD4E00EFDDF1 /* ViewController.swift */,
+				CC8A09BD28075889001F283D /* FeedViewController.swift */,
+				CC8A09BF280758B6001F283D /* UploadViewController.swift */,
+				CC8A09C1280758CB001F283D /* SettingsViewController.swift */,
+				CC51584E2814C5A200A4E9A0 /* FeedCell.swift */,
+				CC1990B6281598C600608BA8 /* Post.swift */,
 				CCE3740327FFAD4E00EFDDF1 /* Main.storyboard */,
 				CCE3740627FFAD4F00EFDDF1 /* Assets.xcassets */,
 				CCE3740827FFAD4F00EFDDF1 /* LaunchScreen.storyboard */,
 				CCE3740B27FFAD4F00EFDDF1 /* Info.plist */,
-				CCE3741127FFAFAD00EFDDF1 /* GoogleService-Info.plist */,
-				CC8A09BD28075889001F283D /* FeedViewController.swift */,
-				CC8A09BF280758B6001F283D /* UploadViewController.swift */,
-				CC8A09C1280758CB001F283D /* SettingsViewController.swift */,
+				CC1990B428158B9800608BA8 /* GoogleService-Info.plist */,
 			);
 			path = FotografPaylasmaUygulamasi;
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 				TargetAttributes = {
 					CCE373F927FFAD4E00EFDDF1 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -227,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE3740A27FFAD4F00EFDDF1 /* LaunchScreen.storyboard in Resources */,
-				CCE3741227FFAFAD00EFDDF1 /* GoogleService-Info.plist in Resources */,
+				CC1990B528158B9800608BA8 /* GoogleService-Info.plist in Resources */,
 				CCE3740727FFAD4F00EFDDF1 /* Assets.xcassets in Resources */,
 				CCE3740527FFAD4E00EFDDF1 /* Main.storyboard in Resources */,
 			);
@@ -240,8 +247,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC51584F2814C5A200A4E9A0 /* FeedCell.swift in Sources */,
 				CCE3740227FFAD4E00EFDDF1 /* ViewController.swift in Sources */,
 				CC8A09C0280758B6001F283D /* UploadViewController.swift in Sources */,
+				CC1990B7281598C600608BA8 /* Post.swift in Sources */,
 				CCE373FE27FFAD4E00EFDDF1 /* AppDelegate.swift in Sources */,
 				CC8A09BE28075889001F283D /* FeedViewController.swift in Sources */,
 				CCE3740027FFAD4E00EFDDF1 /* SceneDelegate.swift in Sources */,
@@ -392,10 +401,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FotografPaylasmaUygulamasi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload to image";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -410,6 +421,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahkaragoz.FotografPaylasmaUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FotografPaylasmaUygulamasi/FotografPaylasmaUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -420,10 +433,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FotografPaylasmaUygulamasi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Upload to image";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -438,6 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahkaragoz.FotografPaylasmaUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FotografPaylasmaUygulamasi/FotografPaylasmaUygulamasi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
