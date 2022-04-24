@@ -73,7 +73,7 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FeedCell
         cell.emailText.text = postDizisi[indexPath.row].email
         cell.yorumText.text = postDizisi[indexPath.row].yorum
-        cell.postImageView.image = post(named: "698394-icon-130-cloud-upload-512")
+        cell.postImageView.image = UIImage(named: "698394-icon-130-cloud-upload-512")
         return cell
         
     }
